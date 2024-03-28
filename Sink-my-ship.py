@@ -8,8 +8,7 @@ def main():
     MISSTOTAL = 20
     shotSpaces = []
     shipLoc = []
-    shipLocations(shipLoc)
-    print(shipLoc)
+    shipLocations(playerName,shipLoc)
 
     
 main()
