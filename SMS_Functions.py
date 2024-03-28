@@ -1,6 +1,6 @@
 # This will be the page that all of my functions are stored on
-def shipLocations():
-    shipLoc = []
+def shipLocations(shipLoc):
+    #shipLoc = []
     def getShipLoc():
         infile = open('ship.txt', 'r')
         for line in infile:
@@ -15,7 +15,6 @@ def shipLocations():
             ship.insert(0,"SHIP"+shipSizeStr)
     getShipLoc()
     nameShips(shipLoc)
-    print(shipLoc)
         
 
 # def printBoard():
@@ -24,4 +23,3 @@ def shipLocations():
 
 # def gameOver():
 
-shipLocations()
